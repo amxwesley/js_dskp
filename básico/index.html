@@ -1,0 +1,25 @@
+<html>
+    <!DOCTYPE HTML>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <title>JS Examples</title>
+        </head>
+        <title>Exercícios em .js</title>
+        <h2>Exercícios em .js</h2>
+        <body>  
+
+            <!-- 1) o elemento nome (id="nome") será passado 
+            será passado para document.getElementById, enviando para o arquivo teste.js. 
+            A ser tratado pela função nome. Veja abaixo -->
+           <p>Digite o nome completo: </p> <input type="text" name="nome-completo" id="nome" placeholder="Digite seu nome"/> 
+                <script type="text/javascript" src="teste.js">
+                /*  1) Bem aqui */
+                 document.getElementById("nome").addEventListener("click");
+                </script> 
+            
+            <button type="button"  onclick="nome()"> Exibir nome </button>
+           
+            
+        </body>
+</html>
